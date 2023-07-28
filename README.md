@@ -22,6 +22,8 @@
  - Added New Hit VFX
  - New Food Animations
  - Food Counter Text Animation
+ - Decreased Camera Smoothing 2 to 0.5
+ - Changed Dash Bar Bg Color (Better Readability)
 
 
 
