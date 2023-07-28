@@ -15,6 +15,6 @@ public class FoodCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = food.ToString();
+        text.text = food.ToString() ;
     }
 }

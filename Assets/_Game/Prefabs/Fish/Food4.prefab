@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796a39536b6359a47a8f8a329d7f8d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healingFactor: 0.1
+  healingFactor: 0.2
   food: 14
 --- !u!58 &3612264823622220445
 CircleCollider2D:

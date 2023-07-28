@@ -14,7 +14,9 @@
  - Updated Player Visuals
  - Upgraded Project To URP
  - Lighting / Graphics Overhaul
- - Post Processing Effects 
+ - Post Processing Effects
+ - Enemy "Food" now heals by 0.2 instead of 0.1
+ - UI Color Adjustments 
 
 
 
