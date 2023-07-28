@@ -12,6 +12,8 @@
  - Added Singleton Abstract Class
  - Added Music Manager (Random Play From 6 Music Tracks)
  - Updated Player Visuals
+ - Upgraded Project To URP
+ 
 
 
 
