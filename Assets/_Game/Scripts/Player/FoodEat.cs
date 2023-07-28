@@ -6,6 +6,8 @@ public class FoodEat : MonoBehaviour
 {
     public float healingFactor;
     public float food;
+    public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,7 @@ public class FoodEat : MonoBehaviour
     {
         
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag=="CollisionPod")
@@ -30,9 +33,20 @@ public class FoodEat : MonoBehaviour
             {
                 GameObject.FindObjectOfType<PlayerHealth>().health = GameObject.FindObjectOfType<PlayerHealth>().maxHealth;
             }
-           
-            Destroy(gameObject);
+
+            StartCoroutine(Consume());
            
         }
+    }
+
+    private IEnumerator Consume()
+    {
+        gameObject.GetComponent<CircleCollider2D>().enabled = false;
+        gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+        audioSource.Play();
+        float secondsToWait = audioSource.clip.length;
+        //yield return new WaitForSeconds(secondsToWait);
+        yield return new WaitForSeconds(1);
+        Destroy(gameObject);
     }
 }
