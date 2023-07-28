@@ -6,6 +6,10 @@ public class FoodCounter : MonoBehaviour
 {
     public TMP_Text text;
     public float food;
+    public Animator textAnim;
+
+    private float cachedFood;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +19,13 @@ public class FoodCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(cachedFood < food)
+        {
+            cachedFood = food;
+            textAnim.SetTrigger("Pop");
+
+        }
+
         text.text = food.ToString() ;
     }
 }

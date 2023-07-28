@@ -21,6 +21,7 @@
  - Added Pitch Varied SFX (Eat Food, Kill Enemy, Hit Enemy, Dash etc)
  - Added New Hit VFX
  - New Food Animations
+ - Food Counter Text Animation
 
 
 
