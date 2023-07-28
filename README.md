@@ -13,7 +13,8 @@
  - Added Music Manager (Random Play From 6 Music Tracks)
  - Updated Player Visuals
  - Upgraded Project To URP
- 
+ - Lighting / Graphics Overhaul
+ - Post Processing Effects
 
 
 
