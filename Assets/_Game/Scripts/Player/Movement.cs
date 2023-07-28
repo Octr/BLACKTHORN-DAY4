@@ -6,6 +6,8 @@ using static UnityEngine.GraphicsBuffer;
 
 public class Movement : MonoBehaviour
 {
+    public AudioSource dashAudio;
+
     public float speed;
     public float rotationSpeed;
     public float rotationOffset;
@@ -34,6 +36,9 @@ public class Movement : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0)) {
                 rb.AddForce(transform.up * dashStrenght);
+                float randomPitch = Random.Range(0.3f, 2f);
+                dashAudio.pitch = randomPitch;
+                dashAudio.Play();
                 dashTimer = 0f;
             } 
         }

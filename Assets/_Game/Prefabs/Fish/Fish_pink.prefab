@@ -487,7 +487,7 @@ MonoBehaviour:
   dropAmount: 5
   drop: {fileID: 2348823078821027927, guid: 0eb6fad5fef69fa4ab37859da53cedf5, type: 3}
   hitEffect: {fileID: 4822144992011202510, guid: 0c409aec9b571934c9ffacbfbaa5fb38, type: 3}
-  deathEffect: {fileID: 4822144992011202510, guid: 0c409aec9b571934c9ffacbfbaa5fb38, type: 3}
+  deathEffect: {fileID: 4822144992011202510, guid: ebf06fb6408bcba4f8ddc8f12685e1f3, type: 3}
   gotHitEffect: {fileID: 2797940539676034283}
   effectDisp: 0.5
   InContactWithPlayer: 0

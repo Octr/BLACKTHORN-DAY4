@@ -19,6 +19,8 @@
  - UI Color / position Adjustments 
  - Fish Visuals Upgrade
  - Added Post Proccessing Heartbeat Effect (Blends 2 Profiles On Timer)
+ - Added Pitch Varied SFX (Eat Food, Kill Enemy, Hit Enemy, Dash etc)
+ - Added New Hit VFX
 
 
 

@@ -43,6 +43,10 @@ public class FoodEat : MonoBehaviour
     {
         gameObject.GetComponent<CircleCollider2D>().enabled = false;
         gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+
+        float randomPitch = Random.Range(0.5f, 1.5f);
+        audioSource.pitch = randomPitch;
+        audioSource.Play();
         audioSource.Play();
         float secondsToWait = audioSource.clip.length;
         //yield return new WaitForSeconds(secondsToWait);
