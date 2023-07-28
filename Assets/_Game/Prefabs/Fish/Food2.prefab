@@ -170,6 +170,8 @@ MonoBehaviour:
   healingFactor: 0.02
   food: 2
   audioSource: {fileID: -3234153847711923952}
+  animators:
+  - {fileID: 6840981289791961323}
 --- !u!58 &7267377607908922845
 CircleCollider2D:
   m_ObjectHideFlags: 0

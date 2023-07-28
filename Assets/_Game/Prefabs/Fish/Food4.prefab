@@ -50,9 +50,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796a39536b6359a47a8f8a329d7f8d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healingFactor: 0.2
+  healingFactor: 0.1
   food: 14
   audioSource: {fileID: 2813803806038596808}
+  animators:
+  - {fileID: 3292235068076758740}
+  - {fileID: 2876797331705442709}
+  - {fileID: 2246426774545679019}
 --- !u!58 &3612264823622220445
 CircleCollider2D:
   m_ObjectHideFlags: 0

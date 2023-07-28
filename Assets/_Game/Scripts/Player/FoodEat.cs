@@ -7,6 +7,7 @@ public class FoodEat : MonoBehaviour
     public float healingFactor;
     public float food;
     public AudioSource audioSource;
+    public Animator[] animators;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +44,11 @@ public class FoodEat : MonoBehaviour
     {
         gameObject.GetComponent<CircleCollider2D>().enabled = false;
         gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+
+        foreach(Animator a in animators)
+        {
+            a.SetTrigger("Eat");
+        }
 
         float randomPitch = Random.Range(0.5f, 1.5f);
         audioSource.pitch = randomPitch;

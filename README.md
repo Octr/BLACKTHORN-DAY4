@@ -15,12 +15,12 @@
  - Upgraded Project To URP
  - Lighting / Graphics Overhaul
  - Post Processing Effects
- - Enemy "Food" now heals by 0.2 instead of 0.1
  - UI Color / position Adjustments 
  - Fish Visuals Upgrade
  - Added Post Proccessing Heartbeat Effect (Blends 2 Profiles On Timer)
  - Added Pitch Varied SFX (Eat Food, Kill Enemy, Hit Enemy, Dash etc)
  - Added New Hit VFX
+ - New Food Animations
 
 
 
