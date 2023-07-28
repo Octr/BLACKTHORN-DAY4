@@ -5,9 +5,10 @@ using System.Collections;
 
 public class PPManager : MonoBehaviour
 {
+    public AudioSource audioSource;
     public Volume volume1; // Reference to the first post-processing volume
     public Volume volume2; // Reference to the second post-processing volume
-    public float transitionDuration = 1f;
+    public float transitionDuration = 10f;
     public float delayBetweenBeats = 1f;
 
     private void Start()
@@ -38,6 +39,12 @@ public class PPManager : MonoBehaviour
                 yield return null;
             }
 
+            // Check if volume1 weight has reached 1 and play the audio
+            if (volume1.weight >= 1f)
+            {
+                audioSource.Play();
+            }
+
             // Wait for a short duration at the peak (max) weight
             yield return new WaitForSeconds(delayBetweenBeats);
 
@@ -54,6 +61,12 @@ public class PPManager : MonoBehaviour
                 volume1.weight = Mathf.Lerp(startWeight1, targetWeight1, elapsedTime / transitionDuration);
                 volume2.weight = Mathf.Lerp(startWeight2, targetWeight2, elapsedTime / transitionDuration);
                 yield return null;
+            }
+
+            // Check if volume2 weight has reached 1 and play the audio
+            if (volume2.weight >= 1f)
+            {
+                audioSource.Play();
             }
 
             // Wait for a short duration at the lowest weight

@@ -18,9 +18,11 @@
  - Enemy "Food" now heals by 0.2 instead of 0.1
  - UI Color / position Adjustments 
  - Fish Visuals Upgrade
+ - Added Post Proccessing Heartbeat Effect (Blends 2 Profiles On Timer)
 
 
 
 # Credits
 https://pixabay.com/users/tomomi_kato-23634083/
 https://www.flaticon.com/free-icon/eye-with-tentacles_2045
+https://pixabay.com/users/pixabay-1/
