@@ -11,8 +11,10 @@
  - Clean / Reorganize Assets Folder Structure
  - Added Singleton Abstract Class
  - Added Music Manager (Random Play From 6 Music Tracks)
+ - Updated Player Visuals
 
 
 
 # Credits
 https://pixabay.com/users/tomomi_kato-23634083/
+https://www.flaticon.com/free-icon/eye-with-tentacles_2045
