@@ -8,6 +8,7 @@
 
 # Changes
  - Upgraded Unity Version (2022.3.2f1) to (2022.3.4f1)
+ - Clean / Reorganize Assets Folder Structure
 
 
 
