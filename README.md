@@ -16,7 +16,8 @@
  - Lighting / Graphics Overhaul
  - Post Processing Effects
  - Enemy "Food" now heals by 0.2 instead of 0.1
- - UI Color Adjustments 
+ - UI Color / position Adjustments 
+ - Fish Visuals Upgrade
 
 
 
