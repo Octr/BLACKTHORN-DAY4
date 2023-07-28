@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 972902690005676801}
   - component: {fileID: 1977826332820459034}
   - component: {fileID: 41197140707894251}
+  - component: {fileID: 7925296628367475362}
   m_Layer: 0
   m_Name: Player_Centipede
   m_TagString: Player
@@ -642,6 +643,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &7925296628367475362
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8041740030370293183}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b2c522ca0738f84483d2244cc3ef316, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &218768382814527185
 PrefabInstance:
   m_ObjectHideFlags: 0

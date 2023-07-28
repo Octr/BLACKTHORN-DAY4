@@ -14,9 +14,9 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: octr.dev
   productName: Octalien
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: d20f5c8e7a6ed4548bfb5fbc78046ff5, type: 3}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.050980393, g: 0.11764706, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -39,7 +39,11 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 4655e403d63d3b242851773fefbc31ff, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: 87525a34897111644843a9b371d7dee2, type: 3}
+    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -279,7 +283,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 5c067d9bf76276f429d4899fb3a57ac6, type: 3}
+      m_Icon: {fileID: 2800000, guid: 199e99020340f0246b93d61cf17b8e55, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
