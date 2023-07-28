@@ -10,7 +10,9 @@
  - Upgraded Unity Version (2022.3.2f1) to (2022.3.4f1)
  - Clean / Reorganize Assets Folder Structure
  - Added Singleton Abstract Class
+ - Added Music Manager (Random Play From 6 Music Tracks)
 
 
 
 # Credits
+https://pixabay.com/users/tomomi_kato-23634083/
